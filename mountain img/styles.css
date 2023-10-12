@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Irish+Grover:400');
+
+.slide {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.slide .overlap-group-wrapper {
+  background-color: #ffffff;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.slide .overlap-group {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: url('./img/mountain-scenery-landscape-sunset-uhdpaper.com-4K-4.3289.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.slide .text-wrapper {
+  position: absolute;
+  top: 22px;
+  left: 36px;
+  font-family: 'Irish Grover', Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 64px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.slide .HOME-ABOUT-ME {
+  position: absolute;
+  top: 69px;
+  right: 20px;
+  font-family: 'Irish Grover', Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  font-size: 22px;
+}
+
+.slide .div {
+  position: absolute;
+  top: 114px;
+  left: 36px;
+  font-family: 'Irish Grover', Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.slide .developer-designer {
+  position: absolute;
+  top: 153px;
+  left: 36px;
+  font-family: 'Irish Grover', Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.slide .i-m-kunal-a-b-tech {
+  position: absolute;
+  width: 1175px;
+  top: 278px;
+  left: 689px;
+  font-family: 'Irish Grover', Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.slide .dive-into-my {
+  position: absolute;
+  top: 313px;
+  left: 719px;
+  font-family: 'Irish Grover', Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}

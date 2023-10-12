@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Irish+Grover:400');
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Irish Grover', Helvetica, sans-serif;
+}
+
+.slide {
+  position: relative;
+  background-color: hsla(167, 29%, 94%, 0.773);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.slide .overlap-group {
+  background-image: url(./img/mountains-in-forest-at-sunset_3000x2002_xtrafondos.com.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  flex: 1;
+  width: 100%;
+}
+
+.slide .HOME-ABOUT-ME {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  color: #ffffff;
+  font-size: calc(0.8vw + 0.5vh);
+  z-index: 2;
+}
+
+.slide .HOME-ABOUT-ME a {
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.slide .HOME-ABOUT-ME a:hover {
+  text-decoration: underline;
+}
+
+.slide .content {
+  max-width: 800px;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.3); /* Lowered opacity */
+  border-radius: 8px;
+  z-index: 2;
+}
+
+.project {
+  border: 1px solid rgba(255, 255, 255, 0.7); /* Slight white border */
+  padding: 15px;
+  border-radius: 8px;
+  margin: 10px 0;
+  transition: transform 0.2s;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Semi-transparent background for project */
+}
+
+.project:hover {
+  transform: scale(1.05);
+}
+
+.highlighted {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: #fff;
+}
+
+.project h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.project p {
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .project {
+    margin: 10px 5px;
+  }
+}
